@@ -159,16 +159,19 @@ button{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+    
 }
 .Saree-box{
 	flex-basis: 15%;
 	box-shadow: 2px 3px 5px grey;
 	padding: 10px;
 	text-align: center;
+    background-color: white;
 }
 
 .Saree-box img{
 	width: 100%;
+    
 }
 .Saree-box h2{
 	margin:20px 0px;
@@ -182,10 +185,7 @@ button{
 	transform: translateY(-20px);
 	transition: 0.4s ease;
 }
-#shreefabs{
-	padding: 100px 0px;
-    background-color: white;
-}
+
 
 
 
@@ -365,15 +365,23 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container2 {
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10% 30%;
+    background-image:url(Image/37748562_2139038599673944_4590983051994988544_n.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10% 30%;
+    
 }
 .shreefabs1{
-    display: flex;
-    flex-wrap: wrap;
+     display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    justify-content: center;
 	align-items: center;
-    padding: 10%;
+    padding: 5%;
+    grid-gap: 50px;
+    
+    
+    
 	
 }
 .shreefabs1 img{
@@ -384,11 +392,24 @@ input[type=submit]:hover {
 
 .saree1{
     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
     padding: 6% 10%;
+     grid-gap: 50px;
   }
+.saree1 img{
+   
+   height: 200px;
+    
+}
 .saree1> div{
     padding: 2%;
     
+}
+
+#shreefabs {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
