@@ -12,13 +12,13 @@ html{
 }
 nav{
 	width: 100%;
-	height: 70px;
+	height: 10%;
 	border-bottom: 1px solid grey;
 	box-shadow: 2px 0px 5px grey;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-	position: fixed;
+	position: relative;
 	top:0;
 	z-index: 1;
 	background: white;
@@ -108,7 +108,8 @@ button{
 	font-size: 30px;
 	text-align: center;
     background-color: white;
-    margin-top: 100px;
+    margin-top: -20px;
+    
 
 }
 
@@ -154,8 +155,18 @@ button{
 
 #Saree{
 	padding: 80px 0px;
+    
+    
 }
-
+#Saree h1{
+    padding-top: -50px;
+    padding-bottom: 2%;
+	font-size: 30px;
+	text-align: center;
+    
+    margin-top: -50px;
+    background-color: #f4f4f4;
+}
 .Saree-row{
 	display: flex;
 	justify-content: space-around;
@@ -416,6 +427,17 @@ input[type=submit]:hover {
     padding-bottom: 5%;
 }
 
+#shreefabs h1{
+    
+    
+	font-size: 30px;
+	text-align: center;
+    
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: white;
+}
+
 
 .fa {  
   padding: 20px;  
@@ -439,9 +461,33 @@ input[type=submit]:hover {
     margin-top: 10px;
 }  
 
+#more2 {
+    display: none;
+}
+    
+}
+.about{
+    margin-top: 800px;
+    background-color: white;
+}
 
+.about2{
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+      height: 200px;
+  position: relative;
+  border: 3px solid white;
+}
 
-
+#myBtn{
+  width: 10%;
+  margin-top: 2%;
+  position: absolute;
+  
+  left: 45%;
+  }
 
 
 
